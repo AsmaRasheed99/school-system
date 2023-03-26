@@ -66,35 +66,53 @@
     </header>
 
     <main>
-<section id="mainsection">
-    <form id="form">
-        <label for="fullname">Full Name</label></br>
-        <input type="text" id="fullname" name="fullname"></br>
-        <label for="Num">Phone Number</label></br>
-        <input type="text" id="Num" name="Num"></br>
-        <label for="grade">grade</label></br>
-        <input type="text" id="grade" name="grade"></br>
-        <label for="bd">Birth Date</label></br>
 
-        <input type="text" id="bd" name="bd" placeholder="Day / Month / Year"> </br>
-        <label for="gen">Gender</label></br>
-        <label for="Fem">Female</label>
-        <input type="radio" id="gender" name="gender" value="Female">
-        <label for="Male">Male</label>
-        <input type="radio" id="gender" name="gender" value="Male"></br>
-        <input type="submit" value="Submit">
-      </form>
-</section>
-<table class="table table-responsive table-bordered border-black" id="table">
-  <tr class="col-lg-5 col-sm-2">
-    <th>Full Name</th>
-    <th>Grade</th>
-    <th>Birth Date</th>
-    <th>Phone Number</th>
-    <th>Gender
-    </th>
-  </tr>
-</table>
+<form id="form" >
+    <div class="inputs">
+      
+    <input id="username"   name="username"   placeholder="Full name"     type="text" id="name_link0" required></br>
+    
+    <input id="usernumber" name="usernumber" placeholder="phone number"  type="text" id="category_0" required></br>
+    <input id="usergrade"  name="usergrade"  placeholder="grade"         type="text" id="category_0" required></br>
+    <input id="userDOB"    name="userDOB"    placeholder="Date of birth" type="date" id="link_add_0" required>
+
+    <select id="usergender"  name="usergender" > 
+      <option value="female">female</option>
+      <option value="male">male</option>
+      </select></br>
+      <select id="usermajor"  name="usermajor" > 
+        <option value="Administration">Administration</option>
+        <option value="IT">IT</option>
+        <option value="Science">Science</option>
+        <option value="Art">Art</option>
+        </select></br>
+        <input id="userimg" name="userimg" value="img/std.jpg" placeholder="user image src"  type="text" id="category_0" required></br>
+        <div class="inputs">
+          <input id="sub" type="submit" value="Submit" ></br>
+  
+      </div>
+       
+
+    </div>
+   
+   
+
+</form>
+
+
+
+<div class="WelcomeContainer">
+ </div>
+
+
+
+<div id="student_card">
+
+
+
+
+</div>
+
 
 </main>
 
